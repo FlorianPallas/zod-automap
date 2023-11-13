@@ -1,7 +1,7 @@
 {
   "name": "zod-automap",
   "description": "Easily map Zod schemas and types based on the rules you define",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

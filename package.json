@@ -1,0 +1,55 @@
+{
+  "name": "zod-automap",
+  "description": "Easily map Zod schemas and types based on the rules you define",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "zod",
+    "map",
+    "dto",
+    "automapper",
+    "recursive",
+    "deep"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlorianPallas/zod-automap.git"
+  },
+  "author": {
+    "name": "Florian Pallas",
+    "email": "mail@fpallas.com",
+    "url": "https://fpallas.com"
+  },
+  "bugs": {
+    "url": "https://github.com/FlorianPallas/zod-automap/issues"
+  },
+  "homepage": "https://github.com/FlorianPallas/zod-automap",
+  "scripts": {
+    "lint": "tsc",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "release": "standard-version",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.1",
+    "@commitlint/config-conventional": "^18.4.0",
+    "@tsconfig/recommended": "^1.0.3",
+    "@vitest/coverage-v8": "^0.34.6",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.0",
+    "standard-version": "^9.5.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "peerDependencies": {
+    "zod": "^3.21.4"
+  },
+  "packageManager": "pnpm@8.10.4"
+}
